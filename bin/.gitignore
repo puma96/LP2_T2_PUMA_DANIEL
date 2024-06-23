@@ -1,0 +1,201 @@
+/ objetivo /
+! .mvn / wrapper / maven-wrapper.jar
+
+# ## SAS ###
+.apt_generado
+.ruta de clase
+.ruta de fábrica
+.proyecto
+.ajustes
+.springBeans
+.sts4-caché
+
+
+# Creado por https://www.gitignore.io/api/git,java,maven,eclipse,windows
+
+# ## Eclipse ###
+
+.metadatos
+papelera /
+tmp /
+* .tmp
+* .bak
+* .swp
+* ~.punta
+propiedades.locales
+.ajustes /
+.ruta de carga
+.recomendadores
+
+# Constructores de herramientas externos
+.constructores de herramientas externas /
+
+# "Configuraciones de lanzamiento de Eclipse" almacenadas localmente
+* .lanzamiento
+
+# Específico de PyDev (IDE de Python para Eclipse)
+* .pydevproyecto
+
+# Específico de CDT (herramientas de desarrollo C/C++)
+.cproyecto
+
+# CDT-autoherramientas
+.autoherramientas
+
+# Procesador de anotaciones Java (APT)
+.ruta de fábrica
+
+# PDT específico (herramientas de desarrollo PHP)
+.Construir camino
+
+# complemento sbteclipse
+.objetivo
+
+# Complemento de charrán
+.tern-proyecto
+
+# Complemento TeXlipse
+.texlipse
+
+# STS (Suite de herramientas de primavera)
+.springBeans
+
+# Recomendadores de código
+.recomendadores /
+
+# Procesamiento de anotaciones
+.apt_generado /
+
+# Scala IDE específico (desarrollo de Scala y Java para Eclipse)
+.cache-principal
+.scala_dependencias
+.hoja de cálculo
+
+# ## Parche de eclipse ###
+# Núcleo de eclipse
+.proyecto
+
+# Específico de JDT (herramientas de desarrollo Java de Eclipse)
+.ruta de clase
+
+# Procesamiento de anotaciones
+.apt_generado
+
+.sts4-caché /
+
+# ## ###
+# Creado por git para copias de seguridad. Para deshabilitar las copias de seguridad en Git:
+# $ git config --global mergetool.keepBackup falso
+* .origen
+
+# Creado por git al usar herramientas de combinación para conflictos
+* .RESPALDO. *
+* .BASE. *
+* .LOCAL. *
+* .REMOTO. *
+* _RESPALDO_ * .txt
+* _BASE_ * .txt
+* _LOCAL_ * .txt
+* _REMOTO_ * .txt
+
+# ## Java ###
+# Archivo de clase compilado
+* .clase
+
+# Archivo de registro
+* .registro
+
+# Archivos BlueJ
+* .ctxt
+
+# Herramientas móviles para Java (J2ME)
+.mtj.tmp /
+
+# Archivos de paquete #
+* .frasco
+* .guerra
+* .nar
+* .oreja
+* .cremallera
+* .tar.gz
+* .rar
+
+# registros de fallos de la máquina virtual, consulte http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid *
+
+# ## Experto ###
+objetivo /
+pom.xml.etiqueta
+pom.xml.releaseCopia de seguridad
+pom.xml.versionsCopia de seguridad
+pom.xml.siguiente
+lanzamiento.properties
+dependencia-reducida-pom.xml
+número de compilación.properties
+.mvn / timing.properties
+.mvn / wrapper / maven-wrapper.jar
+
+# ## Ventanas ###
+# Archivos de caché de miniaturas de Windows
+Pulgares.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Archivo de volcado
+* .stackdump
+
+# Archivo de configuración de carpeta
+[ Dd ] esktop.ini
+
+# Papelera de reciclaje utilizada en archivos compartidos
+$RECYCLE.BIN /
+
+# Archivos del instalador de Windows
+* .taxi
+* .msi
+* .msix
+* .msm
+* .msp
+
+# Atajos de Windows
+* .lnk
+
+# ## IDEA IntelliJ ###
+.idea
+* .iws
+* .iml
+* .ipr
+
+# ## NetBeans ###
+/ nbproyecto / privado /
+/ nbbuild /
+/ dist /
+/ nbdist /
+/ .nb-gradle /
+construir /
+! ** / src / principal / ** / compilación /
+! ** / src / prueba / ** / compilación /
+
+# ## Código VS ###
+.vscode /
+
+# ## Algunos ignorados adicionales (ordenar más tarde)
+* .DS_Tienda
+* .sudoeste ?
+. # *
+* #
+* ~
+.ruta de clase
+.proyecto
+.ajustes
+papelera
+construir
+objetivo
+dependencia-reducida-pom.xml
+* .sublime- *
+/ rascar
+.gradle
+LÉAME.html
+* .iml
+.idea
+.ejercicio
