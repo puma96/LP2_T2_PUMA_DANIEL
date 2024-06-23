@@ -34,4 +34,19 @@ public String listarEmpleados(Model model) {
     return "ListEmpleados"; 
 }
 
+@GetMapping({"/Registrar_Empleado" , "/"})
+public String showRegistrarEmpleado(Model model) {
+    List<AreaEntity> areas = areaRepository.findAll();
+    model.addAttribute("areas", areas);
+    model.addAttribute("empleado", new EmpleadoEntity());
+    return "Registrar_Empleado";
+}
+
+
+@PostMapping({"/Registrar_Empleado" , "/"} )
+public String registrarEmpleado(Model model, @ModelAttribute EmpleadoEntity empleado) {
+    empleadoRepository.save(empleado);
+    return "redirect:/empleados"; 
+}
+
 }
