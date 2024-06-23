@@ -49,4 +49,26 @@ public String registrarEmpleado(Model model, @ModelAttribute EmpleadoEntity empl
     return "redirect:/empleados"; 
 }
 
+
+@GetMapping({"/Editar_Empleado/{dni}", "/"})
+public String showEditarEmpleado(@PathVariable("dni") String dni, Model model) {
+    Optional<EmpleadoEntity> optionalEmpleado = empleadoRepository.findById(dni);
+    if (optionalEmpleado.isPresent()) {
+        EmpleadoEntity empleado = optionalEmpleado.get();
+        List<AreaEntity> areas = areaRepository.findAll();
+        model.addAttribute("areas", areas);
+        
+        model.addAttribute("empleado", empleado);
+        return "Editar_Empleado";
+    } else {
+        return "redirect:/empleados";
+    }
+}
+
+@PostMapping({"/Editar_Empleado", "/"})
+public String editarEmpleado(@ModelAttribute EmpleadoEntity empleado) {
+    empleadoRepository.save(empleado);
+    return "redirect:/empleados";
+}
+
 }
