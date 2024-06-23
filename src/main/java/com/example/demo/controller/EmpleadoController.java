@@ -71,4 +71,10 @@ public String editarEmpleado(@ModelAttribute EmpleadoEntity empleado) {
     return "redirect:/empleados";
 }
 
+@GetMapping("/eliminar_empleado/{dni}")
+public String eliminarEmpleado(@PathVariable("dni") String dni) {
+    empleadoRepository.deleteById(dni);
+    return "redirect:/empleados";
+}
+
 }
