@@ -49,7 +49,6 @@ public String registrarEmpleado(Model model, @ModelAttribute EmpleadoEntity empl
     return "redirect:/empleados"; 
 }
 
-
 @GetMapping({"/Editar_Empleado/{dni}", "/"})
 public String showEditarEmpleado(@PathVariable("dni") String dni, Model model) {
     Optional<EmpleadoEntity> optionalEmpleado = empleadoRepository.findById(dni);
